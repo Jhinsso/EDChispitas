@@ -1,4 +1,6 @@
+package EjChispas;
 import java.lang.*;
+
 public class Facturas{
 
     private int codigoFactura;
