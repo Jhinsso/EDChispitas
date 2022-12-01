@@ -1,6 +1,6 @@
 import java.lang.*;
 
-public class Autonomos{
+public class Autonomos implements Cliente{
     private int codigoCliente;
     private String nombre;  
     private String apellidos; 

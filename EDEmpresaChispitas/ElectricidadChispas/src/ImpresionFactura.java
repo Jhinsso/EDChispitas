@@ -1,6 +1,5 @@
 import java.lang.*;
 import ventas;
-
 public class ImpresionFactura{
 
     private int codigoFactura;

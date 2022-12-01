@@ -1,6 +1,6 @@
 import java.lang.*;
 
-public class Sociedades{
+public class Sociedades implements Cliente{
 
     private int codigoCliente;
 
