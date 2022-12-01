@@ -23,8 +23,6 @@ public class Facturas{
 
     public void setFechaFactura(String fechaFactura){this.fechaFactura=fechaFactura;}
     public void setCliente(String cliente){this.cliente=cliente;}
-    
-
     public void setServicios(String[] servicios){this.servicios=servicios;}
     public void setProdutos(String[] produtos){this.produtos=produtos;}
     
