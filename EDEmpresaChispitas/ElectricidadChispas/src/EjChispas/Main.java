@@ -11,7 +11,7 @@ public class Main{
         autono.setCodigoCliente(scanner.nextInt());
 
         System.out.println("Introduce el NOMBRE de un Autonomo");
-        autono.setNombre(scanner.next());
+        autono.setNombreCliente(scanner.next());
 
         System.out.println("Introduce una Apellidos del Autonomo");
         autono.setApellidos(scanner.next());
@@ -39,7 +39,7 @@ public class Main{
         sociedad.setCodigoCliente(scanner.nextInt());
 
         System.out.println("Introduce el NOMBRE de una Sociedad");
-        sociedad.setRazonSocial(scanner.next());
+        sociedad.setNombreCliente(scanner.next());
 
         System.out.println("Introduce una de");
         sociedad.setEmail(scanner.next());

@@ -6,25 +6,32 @@ public class Sociedades implements Cliente{
 
     private int codigoCliente;
 
-    private String razonSocial;  
+    private String nombreCliente;
 
     private String cif;  
 
     private int codigoPostal; 
 
     private String poblacion;  
-    private String provincia;  
+    private String provincia;
+    private String direccion;
     private String email;
 
     private int telefono;
 
-    public String getRazonSocial(){return razonSocial;}
+    public String getNombreCliente(){return nombreCliente;}
     public String getCif(){return cif;}
     public String getPoblacion(){return poblacion;}
     public String getProvincia(){return provincia;}
     public String getEmail(){return email;}
 
-    public void setRazonSocial(String razonSocial){this.razonSocial=razonSocial;}
+    public void setNombreCliente(String nombreCliente){this.nombreCliente=nombreCliente;}
+
+    @Override
+    public String getDireccion() {return direccion;}
+
+    @Override
+    public void setDireccion(String direccion) {this.direccion=direccion;}
 
     public void setCif(String cif){this.cif=cif;}
     public void setPoblacion(String poblacion){this.poblacion=poblacion;}

@@ -4,27 +4,36 @@ import java.lang.*;
 
 public class Autonomos implements Cliente {
     private int codigoCliente;
-    private String nombre;  
+    private String nombreCliente;
     private String apellidos; 
     private String nif;  
 
     private int codigoPostal; 
 
     private String poblacion;  
-    private String provincia;  
+    private String provincia;
+    private String direccion;
     private String email;  
 
     private int telefono;
 
-    public String getNombre(){return nombre;}
+    public String getNombreCliente(){return nombreCliente;}
     public String getApellidos(){return apellidos;}   
     public String getNif(){return nif;}
     public String getPoblacion(){return poblacion;}
     public String getProvincia(){return provincia;}
     public String getEmail(){return email;}
 
-    public void setNombre(String nombre){this.nombre=nombre;}
-    public void setApellidos(String apellidos){this.apellidos=apellidos;}   
+    public void setNombreCliente(String nombrCliente){this.nombreCliente=nombreCliente;}
+
+    @Override
+    public String getDireccion() {return direccion;}
+
+    @Override
+    public void setDireccion(String direccion) {this.direccion=direccion;}
+
+
+    public void setApellidos(String apellidos){this.apellidos=apellidos;}
     public void setNif(String nif){this.nif=nif;}
     public void setPoblacion(String poblacion){this.poblacion=poblacion;}
     public void setProvincia(String provincia){this.provincia=provincia;}
