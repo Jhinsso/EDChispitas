@@ -14,7 +14,7 @@ public class Facturas{
 
     private int baseImporte;  
     private int total; 
-    private int iva;
+    private TipoIVA tipoIVA;
 
     public String getFechaFactura(){return fechaFactura;}
     public String getCliente(){return cliente;}
@@ -29,12 +29,12 @@ public class Facturas{
 
     public void setCodigoFactura(int codigoFactura){this.codigoFactura=codigoFactura;}
     public void setBaseImporte(int baseImporte){this.baseImporte=baseImporte;}
-    public void setIVA(int iva){this.iva=iva;}
+    public void setTipoIVA(TipoIVA tipoIVA){this.tipoIVA=tipoIVA;}
     public void setTotal(int total){this.total=total;}
 
     public int getCodigoFactura(){return codigoFactura;}
     public int getBaseImporte(){return baseImporte;}
-    public int getIVA(){return iva;}
+    public TipoIVA getTipoIVA(){return tipoIVA;}
     public int getTotal(){return total;}
 
 }

@@ -78,8 +78,6 @@ public class Main{
         System.out.println("Introduce una Poblacion del Cliente");
         produc.setPrecio(scanner.nextInt());
 
-        produc.setIVA(Integer.parseInt("21"));
-
         Servicios serv=new Servicios();
 
         System.out.println("Introduce el Codigo de un producto");
@@ -90,8 +88,6 @@ public class Main{
 
         System.out.println("Introduce una Poblacion del Cliente");
         serv.setPrecio(scanner.nextInt());
-
-        serv.setIVA(Integer.parseInt("21"));
 
         Facturas fac=new Facturas();
 

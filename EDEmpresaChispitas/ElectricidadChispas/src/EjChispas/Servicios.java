@@ -19,7 +19,7 @@ public class Servicios implements Venta{
 
 
     public void setPrecio(int precio){this.precio=precio;}
-    public void setTipoIVA(TipoIVA TipoIVA){this.tipoIVA=tipoIVA;}
+    public void setTipoIVA(TipoIVA tipoIVA){this.tipoIVA=tipoIVA;}
     public void setCodigoVenta(int codigoServicio){this.codigoVenta=codigoVenta;}
 
     public int getPrecio(){return precio;}
