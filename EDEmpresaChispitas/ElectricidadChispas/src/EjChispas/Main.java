@@ -133,10 +133,9 @@ public class Main{
         impfac.setPoblacionCliente("Avila");
         impfac.setProvinciaCliente("Avila");
         impfac.setDireccionCliente("Travesia Dulce Venganza");
-        impfac.setVentas("90");
         System.out.println("Introduce la Base imponible:");
         impfac.setBaseImponible(Integer.parseInt(scanner.next()));
         System.out.println("Introduce el Total");
-        impfac.setTotal(scanner.next());
+        impfac.setTotal(Integer.parseInt(scanner.next()));
     }
 }
