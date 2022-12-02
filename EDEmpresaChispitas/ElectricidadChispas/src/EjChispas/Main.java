@@ -113,6 +113,30 @@ public class Main{
         fac.setTotal(Integer.parseInt(scanner.next()));
 
         ventas vent=new ventas();
+        System.out.println("Introduce el Codigo de Cliente");
+        vent.setCodigoCliente(Integer.parseInt(scanner.next()));
+        vent.setNombre("Paco");
+        vent.setApellidos("Meralgo");
+        vent.setCodigoPostal(Integer.parseInt("05001"));
+        vent.setPoblacion("Avila");
+        vent.setProvincia("Avila");
+        vent.setEmail("gerardoelmagias@gamail.com");
+        vent.setTelefono(Integer.parseInt("658893343"));
 
+        ImpresionFactura impfac=new ImpresionFactura();
+
+        System.out.println("Introduce el Codigo de Cliente");
+        impfac.setCodigoFactura(Integer.parseInt(scanner.next()));
+        impfac.setNombreCliente("Manolo");
+        impfac.setNif("00000000A");
+        impfac.setFechaFactura("20/03/2024");
+        impfac.setPoblacionCliente("Avila");
+        impfac.setProvinciaCliente("Avila");
+        impfac.setDireccionCliente("Travesia Dulce Venganza");
+        impfac.setVentas("90");
+        System.out.println("Introduce la Base imponible:");
+        impfac.setBaseImponible(Integer.parseInt(scanner.next()));
+        System.out.println("Introduce el Total");
+        impfac.setTotal(scanner.next());
     }
 }

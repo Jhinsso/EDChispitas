@@ -39,12 +39,12 @@ public class ImpresionFactura{
     public void setNif(String nif){this.nif=nif;}
     public void setPoblacionCliente(String poblacionCliente){this.poblacionCliente=poblacionCliente;}
     public void setProvinciaCliente(String provinciaCliente){this.provinciaCliente=provinciaCliente;}
-    public void setVentas(ventas[] ventas){this.ventas=ventas;}
+    public void setVentas(String ventas){this.ventas=ventas;}
     public void setFechaFactura(String fechaFactura){this.fechaFactura=fechaFactura;}
 
     public void setCodigoFactura(int codigoFactura){this.codigoFactura=codigoFactura;}
     public void setBaseImponible(int baseImponible){this.baseImponible=baseImponible;}
-    public void setTotal(int total){this.total=total;}
+    public void setTotal(String next){this.total=total;}
 
 
 }

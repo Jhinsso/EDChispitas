@@ -22,9 +22,9 @@ public class ventas{
     public String getNif(){return nif;}
     public String getPoblacion(){return poblacion;}
     public String getProvincia(){return provincia;}
-    public String getEmail(){return email;}
+    public String getEmail(String s){return email;}
 
-    public int getCodigoCliente(){return codigoCliente;}
+    public int getCodigoCliente(String next){return codigoCliente;}
     public int getCodigoPostal(){return codigoPostal;}
     public int getTelefono(){return telefono;}
 
