@@ -2,7 +2,7 @@ package EjChispas;
 
 import java.lang.*;
 
-public class Servicios{
+public class Servicios implements Venta{
 
     private int codigoVenta;
 
