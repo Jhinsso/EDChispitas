@@ -31,7 +31,7 @@ public class Main{
         autono.setCodigoPostal(Integer.parseInt("05001"));
 
         System.out.println("Introduce una descripcion del Cliente");
-        autono.setTelefono(Integer.parseInt(scanner.next()));
+        autono.setTelefono(scanner.nextInt());
 
         Sociedades sociedad=new Sociedades();
 
@@ -59,12 +59,12 @@ public class Main{
         sociedad.setCodigoPostal(Integer.parseInt("05001"));
 
         System.out.println("Introduce una descripcion del genero");
-        sociedad.setTelefono(Integer.parseInt(scanner.next()));
+        sociedad.setTelefono(scanner.nextInt());
 
         Productos produc=new Productos();
 
         System.out.println("Introduce el Codigo de un producto");
-        produc.setCodigoProducto(scanner.nextInt());
+        produc.setCodigoVenta(scanner.nextInt());
 
         System.out.println("Introduce el NOMBRE de un PPRODUCTO");
         produc.setNombre(scanner.next());
@@ -76,20 +76,20 @@ public class Main{
         produc.setModelo(scanner.next());
 
         System.out.println("Introduce una Poblacion del Cliente");
-        produc.setPrecio(Integer.parseInt(scanner.next()));
+        produc.setPrecio(scanner.nextInt());
 
         produc.setIVA(Integer.parseInt("21"));
 
         Servicios serv=new Servicios();
 
         System.out.println("Introduce el Codigo de un producto");
-        serv.setCodigoServicio(scanner.nextInt());
+        serv.setCodigoVenta(scanner.nextInt());
 
         System.out.println("Introduce el NOMBRE de un PRODUCTO");
         serv.setNombre(scanner.next());
 
         System.out.println("Introduce una Poblacion del Cliente");
-        serv.setPrecio(Integer.parseInt(scanner.next()));
+        serv.setPrecio(scanner.nextInt());
 
         serv.setIVA(Integer.parseInt("21"));
 
@@ -113,7 +113,7 @@ public class Main{
         fac.setIVA(Integer.parseInt("21"));
 
         System.out.println("Introduce el total de la factura");
-        fac.setTotal(Integer.parseInt(scanner.next()));
+        fac.setTotal(scanner.nextInt());
 
         ventas vent=new ventas();
         System.out.println("Introduce el Codigo de Cliente");
@@ -129,7 +129,7 @@ public class Main{
         ImpresionFactura impfac=new ImpresionFactura();
 
         System.out.println("Introduce el Codigo de Cliente");
-        impfac.setCodigoFactura(Integer.parseInt(scanner.next()));
+        impfac.setCodigoFactura(scanner.nextInt());
         impfac.setNombreCliente("Manolo");
         impfac.setNif("00000000A");
         impfac.setFechaFactura("20/03/2024");
@@ -137,7 +137,7 @@ public class Main{
         impfac.setProvinciaCliente("Avila");
         impfac.setDireccionCliente("Travesia Dulce Venganza");
         System.out.println("Introduce la Base imponible:");
-        impfac.setBaseImponible(Integer.parseInt(scanner.next()));
+        impfac.setBaseImponible(scanner.nextInt());
         System.out.println("Introduce el Total");
         impfac.setTotal(Integer.parseInt(scanner.next()));
     }

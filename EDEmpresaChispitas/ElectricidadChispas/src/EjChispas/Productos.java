@@ -4,7 +4,7 @@ import java.lang.*;
 
 public class Productos{
 
-    private int codigoProducto;
+    private int codigoVenta;
 
     private String nombre;  
 
@@ -28,9 +28,9 @@ public class Productos{
 
     public void setPrecio(int precio){this.precio=precio;}
     public void setIVA(int iva){this.iva=iva;}
-    public void setCodigoProducto(int codigoProducto){this.codigoProducto=codigoProducto;}
+    public void setCodigoVenta(int codigoVenta){this.codigoVenta=codigoVenta;}
 
     public int getPrecio(){return precio;}
     public int getIVA(){return iva;}
-    public int getCodigoProducto(){return codigoProducto;}
+    public int getCodigoVenta(){return codigoVenta;}
 }

@@ -4,7 +4,7 @@ import java.lang.*;
 
 public class Servicios{
 
-    private int codigoServicio;
+    private int codigoVenta;
 
     private String nombre;  
 
@@ -20,9 +20,9 @@ public class Servicios{
 
     public void setPrecio(int precio){this.precio=precio;}
     public void setIVA(int iva){this.iva=iva;}
-    public void setCodigoServicio(int codigoServicio){this.codigoServicio=codigoServicio;}
+    public void setCodigoVenta(int codigoServicio){this.codigoVenta=codigoVenta;}
 
     public int getPrecio(){return precio;}
     public int getIVA(){return iva;}
-    public int getCodigoServicio(){return codigoServicio;}
+    public int getCodigoVenta(){return codigoVenta;}
 }
