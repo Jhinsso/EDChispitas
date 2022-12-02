@@ -1,7 +1,7 @@
 package EjChispas;
 
 import java.lang.*;
-
+//** NO SIRVE!
 public class ventas{
     private int codigoCliente;
     private String nombre;  
