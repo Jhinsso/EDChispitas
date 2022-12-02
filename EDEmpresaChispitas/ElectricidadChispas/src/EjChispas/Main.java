@@ -69,6 +69,9 @@ public class Main{
         System.out.println("Introduce el NOMBRE de un PPRODUCTO");
         produc.setNombre(scanner.next());
 
+        System.out.println("Introduce la marca del producto");
+        produc.setMarca(scanner.next());
+
         System.out.println("Introduce el modelo de un producto:");
         produc.setModelo(scanner.next());
 
