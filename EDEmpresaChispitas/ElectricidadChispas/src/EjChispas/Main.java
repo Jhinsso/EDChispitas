@@ -115,17 +115,6 @@ public class Main{
         System.out.println("Introduce el total de la factura");
         fac.setTotal(scanner.nextInt());
 
-        ventas vent=new ventas();
-        System.out.println("Introduce el Codigo de Cliente");
-        vent.setCodigoCliente(Integer.parseInt(scanner.next()));
-        vent.setNombre("Paco");
-        vent.setApellidos("Meralgo");
-        vent.setCodigoPostal(Integer.parseInt("05001"));
-        vent.setPoblacion("Avila");
-        vent.setProvincia("Avila");
-        vent.setEmail("gerardoelmagias@gamail.com");
-        vent.setTelefono(Integer.parseInt("658893343"));
-
         ImpresionFactura impfac=new ImpresionFactura();
 
         System.out.println("Introduce el Codigo de Cliente");

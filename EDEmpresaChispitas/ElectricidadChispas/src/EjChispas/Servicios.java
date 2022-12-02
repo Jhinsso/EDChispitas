@@ -10,7 +10,7 @@ public class Servicios implements Venta{
 
     private int precio; 
 
-    private int iva;
+    private TipoIVA tipoIVA;
 
 
     public String getNombre(){return nombre;}
@@ -19,10 +19,10 @@ public class Servicios implements Venta{
 
 
     public void setPrecio(int precio){this.precio=precio;}
-    public void setIVA(int iva){this.iva=iva;}
+    public void setTipoIVA(TipoIVA TipoIVA){this.tipoIVA=tipoIVA;}
     public void setCodigoVenta(int codigoServicio){this.codigoVenta=codigoVenta;}
 
     public int getPrecio(){return precio;}
-    public int getIVA(){return iva;}
+    public TipoIVA getTipoIVA(){return tipoIVA;}
     public int getCodigoVenta(){return codigoVenta;}
 }

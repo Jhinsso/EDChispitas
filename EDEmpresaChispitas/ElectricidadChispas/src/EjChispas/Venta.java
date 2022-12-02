@@ -10,6 +10,5 @@ public interface Venta {
     public int getPrecio();
     public void setPrecio(int precio);
 
-    public int getIVA();
-    public void setIVA(int iva);
+    public TipoIVA getTipoIVA();
 }
